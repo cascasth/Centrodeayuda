@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Mi Avatar Interactivo</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Asistente Virtual HeyGen</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #ffffff);
+      color: #333;
+      text-align: center;
+    }
+
+    header {
+      background-color: #00796b;
+      color: white;
+      padding: 30px 20px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    .box {
+      max-width: 600px;
+      margin: auto;
+      background: #ffffffcc;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      background: #004d40;
+      color: white;
+      padding: 10px;
+      font-size: 0.9em;
+    }
+  </style>
 </head>
 <body>
-  <h1 style="text-align:center;">Hola, soy tu avatar HeyGen</h1>
 
+  <header>
+    <h1>Tu Asistente Virtual</h1>
+    <p>Habla conmigo, soy una guía para resolver tus dudas 🧠</p>
+  </header>
+
+  <section>
+    <div class="box">
+      <h2>¿Cómo usarme?</h2>
+      <p>Haz clic en la burbuja del avatar abajo a la izquierda y empieza a hablar o escribir.</p>
+      <p>Estoy aquí para ayudarte con información, preguntas o recomendaciones.</p>
+    </div>
+  </section>
+
+  <!-- AVATAR HEYGEN AQUÍ -->
   <script>
     !function(window){
       const host="https://labs.heygen.com",
@@ -73,6 +127,10 @@
     }(globalThis);
   </script>
 
+  <footer>
+    Creado por Teresa 💻 | Powered by HeyGen & GitHub Pages
+  </footer>
+
 </body>
 </html>
-Create index.html
+
