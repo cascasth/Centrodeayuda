@@ -3,14 +3,64 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Avatar Interactivo</title>
+  <title>Tu Asistente Virtual | Lignum Group</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #003f73;
+      color: #333;
+    }
+    header {
+      background-color: #003f73;
+      color: white;
+      text-align: center;
+      padding: 60px 20px 40px;
+    }
+    header img {
+      width: 180px;
+      margin-bottom: 20px;
+    }
+    .content {
+      background-color: #f3fcfc;
+      padding: 60px 20px;
+      text-align: center;
+      border-radius: 20px;
+      margin: -40px auto 40px;
+      max-width: 600px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #003f73;
+      color: white;
+      font-size: 14px;
+    }
+  </style>
 </head>
-<body style="font-family: Arial, sans-serif; text-align: center; padding-top: 100px;">
+<body>
 
-  <h1>¿Cómo usarme?</h1>
-  <p>Soy tu asistente interactivo. Haz clic sobre mí para empezar a hablar </p>
+  <header>
+    <img src="logo.png" alt="Lignum Group Logo" />
+    <h1>Tu Asistente Virtual</h1>
+    <p>Habla conmigo, soy una guía para resolver tus dudas 🧠</p>
+  </header>
 
-  <!-- Avatar de HeyGen -->
+  <div class="content">
+    <h2>¿Cómo usarme?</h2>
+    <p>
+      Haz clic en la burbuja del avatar abajo a la izquierda,<br>
+      selecciona el idioma y empieza a hablar o escribir.<br><br>
+      Estoy aquí para ayudarte con información, preguntas o recomendaciones.
+    </p>
+  </div>
+
+  <footer>
+    Creado por Lignum Group 🧑‍💻 | Powered by GitHub Pages
+  </footer>
+
+  <!-- AVATAR HEYGEN -->
   <script>
     !function(window){
       const host = "https://labs.heygen.com";
@@ -91,5 +141,6 @@
       document.body.appendChild(wrapDiv);
     }(globalThis);
   </script>
+
 </body>
 </html>
